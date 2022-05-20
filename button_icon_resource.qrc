@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>icons/more_horiz_FILL0_wght400_GRAD0_opsz48.png</file>
+        <file>icons/refresh_FILL0_wght400_GRAD0_opsz48.png</file>
+    </qresource>
+</RCC>
