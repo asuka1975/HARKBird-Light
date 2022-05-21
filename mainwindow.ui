@@ -328,6 +328,7 @@
             <property name="font">
              <font>
               <pointsize>12</pointsize>
+              <bold>true</bold>
              </font>
             </property>
             <property name="text">
@@ -403,6 +404,7 @@
                 <property name="font">
                  <font>
                   <pointsize>12</pointsize>
+                  <bold>true</bold>
                  </font>
                 </property>
                 <property name="text">
@@ -426,6 +428,7 @@
                 <property name="font">
                  <font>
                   <pointsize>12</pointsize>
+                  <bold>true</bold>
                  </font>
                 </property>
                 <property name="text">
