@@ -18,7 +18,7 @@
     <item row="0" column="0">
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>2</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -114,7 +114,7 @@
             <item row="1" column="0">
              <widget class="QLineEdit" name="lineEdit">
               <property name="placeholderText">
-               <string>YYYYMMDD_HHMMSS</string>
+               <string>YYYYMMDD_HHMMSS.wav</string>
               </property>
              </widget>
             </item>
