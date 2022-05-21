@@ -18,7 +18,7 @@
     <item row="0" column="0">
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -271,6 +271,203 @@
        <attribute name="title">
         <string>Localization</string>
        </attribute>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Working directory</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QLineEdit" name="lineEdit_8"/>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_6">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="button_icon_resource.qrc">
+                <normaloff>:/icon/icons/more_horiz_FILL0_wght400_GRAD0_opsz48.png</normaloff>:/icon/icons/more_horiz_FILL0_wght400_GRAD0_opsz48.png</iconset>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_7">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="button_icon_resource.qrc">
+                <normaloff>:/icon/icons/refresh_FILL0_wght400_GRAD0_opsz48.png</normaloff>:/icon/icons/refresh_FILL0_wght400_GRAD0_opsz48.png</iconset>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QListView" name="listView_2"/>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="1">
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Parameter</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QLineEdit" name="lineEdit_9"/>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_8">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="button_icon_resource.qrc">
+                <normaloff>:/icon/icons/more_horiz_FILL0_wght400_GRAD0_opsz48.png</normaloff>:/icon/icons/more_horiz_FILL0_wght400_GRAD0_opsz48.png</iconset>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_9">
+              <property name="text">
+               <string>Save</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QTableView" name="tableView"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_10">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Save Directory</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <item>
+             <widget class="QLineEdit" name="lineEdit_10"/>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_10">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="button_icon_resource.qrc">
+                <normaloff>:/icon/icons/more_horiz_FILL0_wght400_GRAD0_opsz48.png</normaloff>:/icon/icons/more_horiz_FILL0_wght400_GRAD0_opsz48.png</iconset>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_9">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_4">
+              <item>
+               <widget class="QLabel" name="label_12">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Gain</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_11">
+                <property name="placeholderText">
+                 <string>40</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item>
+               <widget class="QLabel" name="label_13">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Option</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QRadioButton" name="radioButton">
+                <property name="text">
+                 <string>Convert to 15k wav file</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_6"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_11">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>75</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Localize</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
       </widget>
       <widget class="QWidget" name="tab_3">
        <attribute name="title">
