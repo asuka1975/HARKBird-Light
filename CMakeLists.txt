@@ -23,6 +23,9 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        annotation.cpp
+        annotation.h
+        annotation.ui
         ${TS_FILES}
 )
 
